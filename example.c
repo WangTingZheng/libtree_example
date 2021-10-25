@@ -92,5 +92,5 @@ void main()
   bstree_insert_kv(2, "2", tree);
   bstree_insert_kv(3, "3", tree);
   
-  assert(strcmp(bstree_lookup_kv(1, tree)->	value, "1") == 0);
+  assert(strcmp(bstree_lookup_kv(1, tree)->value, "1") == 0);
 }
